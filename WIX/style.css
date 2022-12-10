@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Nav-bar {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 72px;
+  border: 1px solid gray;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+}
+
+.Nav-itself {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 72px;
+}
+
+.div-right {
+  width: 416px;
+  height: 42px;
+
+  margin: auto;
+  position: fixed;
+  right: 20px;
+  top: 15px;
+}
+
+.div-right p {
+  position: relative;
+  top: 10px;
+  color: #20303c;
+}
+
+.nav-right {
+  position: relative;
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
+
+.Edit-a a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 12px 27px 12px 27px;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  background: #116dff;
+}
+
+.Edit-a a:hover {
+  transition-duration: 400ms;
+  opacity: 0.7;
+}
+
+.More-a a {
+  position: relative;
+  top: 10px;
+  color: #20303c;
+}
+
+.More-a a:hover {
+  color: #4483e7;
+}
+
+.nav-right .More-a {
+  color: #20303c;
+}
+
+.div-left {
+  position: relative;
+  left: 30px;
+  width: 212px;
+  height: 28px;
+  align-self: center;
+}
+
+.nav-left {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.WiX a {
+  position: relative;
+  bottom: 6px;
+  width: 66px;
+  height: 24px;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: "Berkshire Swash", "cursive";
+  color: #20303c;
+}
+
+.nav-left hr {
+  position: relative;
+  width: 1px;
+  height: 25px;
+  left: 30px;
+}
+
+.nav-left .PC-view {
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+}
+
+.nav-left .Mobile-view {
+  position: relative;
+  left: 20px;
+  bottom: 10px;
+}
+
+.head-div {
+  width: 100%;
+  height: 1100px;
+  background-image: url(/11062b_b75407a670324c39babd882c6c01d983f000.webp);
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  margin-top: 73px;
+}
+
+.inside-head-div {
+  width: 100%;
+  height: 255px;
+}
+
+.top-div {
+  width: 100%;
+  height: 150px;
+}
+
+.top-div a {
+  margin: auto;
+  position: relative;
+  top: 50px;
+  left: 47%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: black;
+  padding: 20px 20px 20px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Berkshire Swash", "cursive";
+  font-size: xx-large;
+}
+
+.mid-div {
+  width: 100%;
+  height: 52px;
+}
+
+.bottom-div {
+  display: flex;
+  width: 100%;
+  height: 52px;
+}
+
+.bottom-div .bottom-div-ul {
+  position: relative;
+  margin: auto;
+  bottom: 20px;
+  right: 8px;
+  list-style: none;
+  display: flex;
+  gap: 200px;
+  color: #20303c;
+}
+
+.bottom-div .bottom-div-ul a {
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000;
+}
+
+.bottom-div .bottom-div-ul a:hover {
+  color: rgb(228, 123, 3);
+  transition-duration: 500ms;
+}
+
+.main-middle-of-page {
+  width: 100%;
+  height: 1300px;
+}
+
+.middle-of-page {
+  width: 90%;
+  height: 1300px;
+}
+
+.Title-div {
+  width: 100%;
+  height: 50px;
+}
+
+.Title-div h2 {
+  position: relative;
+  margin-left: 47%;
+  bottom: 40px;
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.Mother-of-all-divs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 100px;
+  position: relative;
+  width: 100%;
+  height: 911px;
+  top: 120px;
+}
+
+.Mother-of-all-divs .box {
+  position: relative;
+  width: 550px;
+  height: 280px;
+}
+
+/* .Mother-of-all-divs div:hover {
+  background-color: rgb(194, 37, 37);
+  filter: brightness(0.4);
+  transition-duration: 500ms;
+} */
+
+/* .Mother-of-all-divs .Lion:hover::before {
+  content: "Проект 07Опишите изображение здесь.";
+  position: absolute;
+  left: 60px;
+  display: inline-block;
+  color: white;
+
+  font-size: larger;
+} */
+
+.Black-White-div {
+  position: relative;
+  bottom: 100px;
+  width: 100%;
+  height: 530px;
+}
+
+.Black-White-img {
+  width: 100%;
+  height: 530px;
+}
+
+.Black-White-img img {
+  width: 100%;
+  height: 530px;
+  background-repeat: repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.info-div {
+  width: 100%;
+  height: 300px;
+}
+
+.text-div {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+}
+
+.text-div h1 {
+  position: relative;
+  bottom: 40px;
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.text-div p {
+  position: relative;
+  right: 150px;
+  font-size: 18px;
+  width: 700px;
+  color: rgb(85, 85, 85);
+}
+/* --------------------------------------------------------------------- */
+
+.Mother-of-all-divs .box:hover .hover-container{
+  display: block;
+  
+}
+
+.hover-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1011116c;
+  z-index: 197;
+  display: none;
+}
+.box .hover-container p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  
+}
